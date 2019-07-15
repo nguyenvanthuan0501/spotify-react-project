@@ -3,12 +3,11 @@
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
-  "engines": {
-    "yarn": "1.16.0",
-    "node": "12.4.0"
-  },
+  "homepage": "https://spotify.github.io/spotify-react-project",
   "scripts": {
     "start": "cross-env NODE_ENV='development' webpack-dev-server --progress --colors --config ./webpack.config.js --port 3000",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "build": "cross-env NODE_ENV='production' webpack --progress -p",
     "test": "echo \"No test specified\" && exit 0"
   },
@@ -35,6 +34,7 @@
   "dependencies": {
     "babel-preset-env": "^1.6.1",
     "css-loader": "^0.28.9",
+    "gh-pages": "^2.0.1",
     "history": "^4.7.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
