@@ -90,8 +90,6 @@
     padding: 0 3px;
     width: 30px;
     height: 30px;
-    x: 0px;
-    y: 0px;
     enable-background: new 0 0 25 25;
 }
 svg.sb-soundplayer-icon {
@@ -124,8 +122,6 @@ svg.sb-soundplayer-icon {
 .step-backward {
     width: 18px;
     height: 18px;
-    x: 0px;
-    y: 0px;
     enable-background: new 0 0 25 25;
     margin-bottom: 5px;
 }
@@ -136,8 +132,6 @@ svg.sb-soundplayer-icon {
 .step-foreward {
     width: 18px;
     height: 18px;
-    x: 0px;
-    y: 0px;
     enable-background: new 0 0 25 25;
     margin-bottom: 5px;
 }
@@ -146,8 +140,6 @@ svg.sb-soundplayer-icon {
 }
 
 #pause {
-    x: 0px;
-    y: 0px;
     enable-background: new 0 0 25 25;
     width: 30px;
     height: 30px;

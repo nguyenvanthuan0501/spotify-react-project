@@ -41,12 +41,12 @@ class Menubar extends Component {
       <Dropdown trigger={userDropdownTrigger} button className='teal'>
         <Dropdown.Menu>
           <Dropdown.Item key="user" disabled><span>Signed in as <strong>{user.display_name}</strong></span></Dropdown.Item>
-          <Dropdown.Item key="email" image={profileImage} text="You have so nice pic!" className="avatar"/>
+          <Dropdown.Item key="email" image={profileImage} text="Your avatar so beautifull" className="avatar"/>
           <Dropdown.Item key="profileImage">{user.email} <Icon name="mail"/></Dropdown.Item>
           <Dropdown.Item key="country">Your Country <Flag name={user.country.toLowerCase()} /></Dropdown.Item>
           <Dropdown.Item key="follower">Follower {user.followers.total} <Icon name="trophy"/></Dropdown.Item>
           <Dropdown.Divider />
-          <Dropdown.Item key="logout" onClick={onLogout}><Label color='red'><Icon name="sign out"/> Logout</Label></Dropdown.Item>
+          <Dropdown.Item key="logout" onClick={onLogout}><Label color='black'><Icon name="sign out"/> Logout</Label></Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
     )

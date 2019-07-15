@@ -65,10 +65,10 @@ class Player extends React.Component {
             </li>
             <li className="info">
               <h1 className="h5 nowrap caps flex-auto m0">
-                {trackTitle ? trackTitle : '----------------------------'}
+                {trackTitle ? trackTitle : ''}
               </h1>
               <h4 className="h5 nowrap caps flex-auto m0">
-                {artistName ? artistName : '-----(｀・ω・´)-----'}
+                {artistName ? artistName : ''}
               </h4>
 
               <div className="button-items">
