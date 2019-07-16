@@ -1,7 +1,8 @@
 const QueryString = require('query-string')
 
+const urlParams = new URLSearchParams(location.hash)
+console.log("test", urlParams)
 const queryString = QueryString.parse(location.hash)
-console.log("test", location.hash)
 
 if (queryString.error) {
   // We should get below
