@@ -2,8 +2,12 @@
     "root": "dist/",
     "clean_urls": false,
     "routes": {
-      "/**": "index.html",
       "/**": "index.html"
+    },
+    "proxies": {
+      "/api/": {
+        "origin": "https://spotify-react-project.herokuapp.com/"
+      }
     }
 }
   
