@@ -6,8 +6,7 @@
   "scripts": {
     "start": "NODE_ENV='development' webpack-dev-server --progress --colors --config ./webpack.config.js --port 3000",
     "build": "NODE_ENV='production' webpack --progress -p",
-    "test": "echo \"No test specified\" && exit 0",
-    "heroku-prebuild": "yarn add --dev"
+    "test": "echo \"No test specified\" && exit 0"
   },
   "keywords": [],
   "author": "",
