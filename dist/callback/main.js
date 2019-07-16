@@ -1,6 +1,7 @@
 const QueryString = require('query-string')
 
 const queryString = QueryString.parse(location.hash)
+console.log(location.hash)
 
 if (queryString.error) {
   // We should get below
