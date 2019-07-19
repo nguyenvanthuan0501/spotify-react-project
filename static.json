@@ -1,5 +1,5 @@
 {
-    "root": "index.js",
+    "root": "index/",
     "clean_urls": false,
     "routes": {
       "/**": "index.html"
