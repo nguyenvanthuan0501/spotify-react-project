@@ -3,10 +3,13 @@
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
+  "homepage": "http://nguyenvanthuan0501.github.io/spotify-react-project",
   "scripts": {
     "start": "cross-env NODE_ENV='development' webpack-dev-server --progress --colors --config ./webpack.config.js --port 3000",
     "build": "cross-env NODE_ENV='production' webpack --progress -p",
-    "test": "echo \"No test specified\" && exit 0"
+    "test": "echo \"No test specified\" && exit 0",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -39,6 +42,7 @@
     "react-soundplayer": "^1.0.4",
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0",
+    "save-dev": "^2.0.0",
     "semantic-ui-react": "^0.78.2",
     "spotify-web-api-node": "^2.5.0",
     "style-loader": "^0.20.2"
